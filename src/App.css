@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+
+.body{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 100;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header{
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(20, 21, 38);
+  box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+  color: white;
+  position: fixed;
+  font-size: calc(10px + 14 * (100vw - 320px)/ 800);
+  z-index: 3;
+}
+
+.logo{
+  top: 0;
+  margin: 1% 0 0 6%;
+  float: left;
+  position: relative;
+  display: block;
+  font-size: 36px;
+}
+
+.instructions{
+  top: 0;
+  margin: 1% 0 0 21%;
+  float: left;
+  position: relative;
+  display: block;
+  font-size: 34px;
+}
+
+.scores{
+  top: 0;
+  margin: 1% 4% 0 0;
+  float: right;
+  position: relative;
+  display: block;
+  font-size: 34px;
+}
+
+.container{
+  width: 100%;
+  height: auto;
+  padding: 0 11%;
+  margin: 10% auto 0 auto;
+  display: block;
+  position: absolute;
+  text-align: center;
+  z-index: 0;
+}
+
+.card:hover { transform: scale(1.1); }
+
+.card {
+  width: 175px;  
+  height: 175px;  
+  margin: 0 2% 2% 2%;      
+  float: left;       /* Set width of cards */
+  border-radius: 4px;           /* Slightly Curve edges */
+  overflow: hidden;             /* Fixes the corners */
+  display: flex;                /* Children use Flexbox */
+  flex-direction: column; 
+  color: white;      /* Rotate Axis */
+  box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+  position: relative;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.card:nth-of-type(5),
+.card:nth-of-type(9){
+  clear: left;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.hero {
+  width: 100%;
+  height: 400px;
+  margin-top: 5%;
+  display: block;
+  z-index: 0;
+  background: url("https://images.unsplash.com/photo-1516919549054-e08258825f80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"); 
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  opacity: 0.85;
+    background-position: center center;
+}
+
+.middle {
+  top: 42%;
+  left: calc(100% /2 - 16%);
+  font-size: 45px;
+  color: white;
+  z-index: 1;
+  position: absolute;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300; 
+  text-transform: uppercase;
+  font-style: italic;
+}
