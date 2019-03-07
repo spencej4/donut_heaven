@@ -1,8 +1,8 @@
 {
   "name": "clicky-game",
-  "homepage": "https://spencej4.github.io/donut_heaven/",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://spencej4.github.io/donut_heaven",
   "dependencies": {
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
