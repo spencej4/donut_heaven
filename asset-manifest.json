@@ -1,13 +1,13 @@
 {
-  "main.css": "/donut_heaven/static/css/main.42fcb8f8.chunk.css",
-  "main.js": "/donut_heaven/static/js/main.8e029159.chunk.js",
-  "main.js.map": "/donut_heaven/static/js/main.8e029159.chunk.js.map",
+  "main.css": "/donut_heaven/static/css/main.e184e6fb.chunk.css",
+  "main.js": "/donut_heaven/static/js/main.4b0763aa.chunk.js",
+  "main.js.map": "/donut_heaven/static/js/main.4b0763aa.chunk.js.map",
   "runtime~main.js": "/donut_heaven/static/js/runtime~main.6b54391c.js",
   "runtime~main.js.map": "/donut_heaven/static/js/runtime~main.6b54391c.js.map",
   "static/js/2.8593d4d2.chunk.js": "/donut_heaven/static/js/2.8593d4d2.chunk.js",
   "static/js/2.8593d4d2.chunk.js.map": "/donut_heaven/static/js/2.8593d4d2.chunk.js.map",
   "index.html": "/donut_heaven/index.html",
-  "precache-manifest.1e69af42cb7017342f99d9a2cf28bd43.js": "/donut_heaven/precache-manifest.1e69af42cb7017342f99d9a2cf28bd43.js",
+  "precache-manifest.fcb3c8ea3dcade857db1a23bce341a34.js": "/donut_heaven/precache-manifest.fcb3c8ea3dcade857db1a23bce341a34.js",
   "service-worker.js": "/donut_heaven/service-worker.js",
-  "static/css/main.42fcb8f8.chunk.css.map": "/donut_heaven/static/css/main.42fcb8f8.chunk.css.map"
+  "static/css/main.e184e6fb.chunk.css.map": "/donut_heaven/static/css/main.e184e6fb.chunk.css.map"
 }

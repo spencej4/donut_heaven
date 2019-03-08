@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/donut_heaven/precache-manifest.1e69af42cb7017342f99d9a2cf28bd43.js"
+  "/donut_heaven/precache-manifest.fcb3c8ea3dcade857db1a23bce341a34.js"
 );
 
 workbox.clientsClaim();
