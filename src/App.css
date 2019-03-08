@@ -74,7 +74,7 @@
 .container{
   width: 100%;
   height: auto;
-  padding: 0 11%;
+  padding: 0 13.5%;
   margin: 10% auto 0 auto;
   display: block;
   position: absolute;
@@ -88,12 +88,12 @@
   width: 175px;  
   height: 175px;  
   margin: 0 2% 2% 2%;      
-  float: left;       /* Set width of cards */
+  float: left;                  /* Set width of cards */
   border-radius: 4px;           /* Slightly Curve edges */
   overflow: hidden;             /* Fixes the corners */
   display: flex;                /* Children use Flexbox */
-  flex-direction: column; 
-  color: white;      /* Rotate Axis */
+  flex-direction: column;       /* Rotate Axis */
+  color: white;                
   box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
   position: relative;
   cursor: pointer;
@@ -126,9 +126,9 @@ img{
 }
 
 .middle {
-  top: 42%;
-  left: calc(100% /2 - 16%);
-  font-size: 45px;
+  top: calc(100%/ 2 - 26%);
+  left: 29%;
+  font-size: 65px;
   color: white;
   z-index: 1;
   position: absolute;
