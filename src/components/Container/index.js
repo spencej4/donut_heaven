@@ -79,12 +79,12 @@ class Card extends React.Component {
     }
 
     shuffleArray(images);
-      return images.map((item, key) => (
+      return images.map((item) => (
           <div
               className="card"
               key={item.key}
               value={item.id}
-              onClick={(event) => handleClick(event, key)} 
+              onClick={(event) => handleClick(event, item.key)} 
           >
           <img src={item.link} alt="donut"></img>
           </div>

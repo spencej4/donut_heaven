@@ -19,7 +19,7 @@ class App extends Component {
       this.calcScore = this.calcScore.bind(this);
   }
 
-  
+
   checkForDuplicates(key) {
         this.runComparison(key);
   };
